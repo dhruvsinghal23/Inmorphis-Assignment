@@ -1,9 +1,17 @@
 
 // 1
-    // function reverseNumber(num){
-    //     return parseInt(num.toString().split('').reverse().join(''))
-    // }
-    // console.log(reverseNumber(12345))
+// function reverseNumber(){
+//     let num = Number(prompt("enter the number to reverse"));
+//     let rever = 0;
+//    while(num>0)
+//    {
+//        let digit = num%10;
+//        rever = rever*10 + digit;
+//        num = Math.floor(num/10);
+//    }
+//    console.log(rever);
+// }
+// reverseNumber();
 
 // 2
     // function isPalindrome(s){
@@ -204,10 +212,10 @@
     // console.log(subsetFixedLength([1,2,3], 2))
 
 //22
-    function countLetter(str, letter) {
-      return str.split('').filter(l => l === letter).length;
-    }
-    console.log(countLetter('w3resource.com', 'o'))
+    // function countLetter(str, letter) {
+    //   return str.split('').filter(l => l === letter).length;
+    // }
+    // console.log(countLetter('w3resource.com', 'o'))
 
 // // 23. First non-repeated character
     // function firstNonRepeatedChar(str) {
